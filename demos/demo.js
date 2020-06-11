@@ -9,8 +9,8 @@
 var tt = new Transcription();
 
 var dictate = new Dictate({
-		server : "wss://bark.phon.ioc.ee:8443/dev/duplex-speech-api/ws/speech",
-		serverStatus : "wss://bark.phon.ioc.ee:8443/dev/duplex-speech-api/ws/status",
+		server : "ws://fj23992711.zicp.vip:48890/client/ws/speech",
+		serverStatus : "ws://fj23992711.zicp.vip:48890/client/ws/speech",
 		recorderWorkerPath : '../lib/recorderWorker.js',
 		onReadyForSpeech : function() {
 			__message("READY FOR SPEECH");
